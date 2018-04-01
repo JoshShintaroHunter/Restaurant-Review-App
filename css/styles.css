@@ -13,6 +13,7 @@ body {
 	position:relative;
 }
 ul, li {
+  display:inline-block;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 10pt;
 	color: #333;
@@ -48,6 +49,9 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+footer#footer.footerRest{
+  width: 46%;
+}
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
@@ -57,6 +61,7 @@ nav {
 }
 nav h1 {
   margin: auto;
+  padding-top: 20px;
 }
 nav h1 a {
   color: #fff;
@@ -105,8 +110,10 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
+  padding-top: 20px;
+  padding-bottom: 20px;
   width: 100%;
-  height: 50px;
+  height: 70px;
   background-color: #3397DB;
   align-items: center;
 }
@@ -131,21 +138,22 @@ nav h1 a {
 
 /* ====================== Restaurant Listing ====================== */
 #restaurants-list {
-  background-color: #f3f3f3;
+  background-color: #BCEBE8;
   list-style: outside none none;
   margin: 0;
   padding: 30px 15px 60px;
   text-align: center;
 }
 #restaurants-list li {
+  border-radius: 5px;
   background-color: #fff;
   border: 2px solid #ccc;
   font-family: Arial,sans-serif;
   margin: 15px;
   min-height: 380px;
   padding: 0 30px 25px;
-  text-align: left;
-  width: 270px;
+  text-align: center;
+  width: 300px;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -170,7 +178,7 @@ nav h1 a {
   font-size: 11pt;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #EE7E06FF;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -265,7 +273,7 @@ nav h1 a {
   overflow: hidden;
   padding: 0 20px 20px;
   position: relative;
-  width: 85%;
+  width: 75%;
 }
 #reviews-list li p {
   margin: 0 0 10px;
@@ -275,17 +283,44 @@ nav h1 a {
 }
 
 
-@media screen and (min-width: 0px) and (max-width: 412px) {
-.filter-options{
-  padding-top:20px;
-  height: 180px;
-}
-.filter-options select{
-  height: 40px;
+/*Media wuery for Ipad*/
+@media screen and (min-width: 361px) and (max-width: 768px) {
+/*Adjustments for main page*/
+  #restaurants-list li{
+    width:35%;
+    margin-left: 4px;
+  }
+
+  .filter-options select{
+    width:20%;
+    height: 40px;
+  }
+
 }
 
-#cuisines-select{
-  margin-top: 30px;
+
+
+/*Media query for Galaxy S5*/
+@media screen and (min-width: 0px) and (max-width: 360px) {
+  /*Adjustments for main page*/
+  nav h1{
+    padding-top: 10px;
+  }
+  .filter-options{
+    padding-top:20px;
+    height: 180px;
+  }
+  .filter-options select{
+    height: 40px;
+  }
+  #cuisines-select{
+    margin-top: 30px;
+  }
+  #restaurants-list li{
+    width:75%;
+    margin-left: 4px;
+  }
+  /* Adjustments for indivdual review pages*/
 }
-}
+
 
