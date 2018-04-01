@@ -1,10 +1,6 @@
-# Mobile Web Specialist Certification Course
----
-#### _Three Stage Course Material Project - Restaurant Reviews_
+#### Restaurant Reviewer
 
-## Restaruant Reviewer
-
-A simple web app that lists restaruants with a visual representation via google maps API, users can select a cuisine and neighborhood to specify their search. Once a restaraunt page is clicked the user is directed to a page describing the restaraunts hours and location as well as afew reviews.
+A simple web app that lists restaruants with a visual representation via google maps API, users can select a cuisine and neighborhood to specify their search. Once a restaurant page is clicked the user is directed to a page describing the restaurants hours and location as well as afew reviews.
 
 ### Cache
 
