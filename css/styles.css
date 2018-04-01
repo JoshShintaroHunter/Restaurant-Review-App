@@ -320,7 +320,33 @@ nav h1 a {
     width:75%;
     margin-left: 4px;
   }
-  /* Adjustments for indivdual review pages*/
+  
+  /* Adjustments for restaraunt pages*/
+  #breadcrumb {
+    padding-top: 0px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 17px;
+    margin: 0;
+    width: calc(100% - 80px);
+  }
+  #restaurant-container, #reviews-container {
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding: 140px 40px 30px;
+    width: 80%;
+  }
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 40%;
+    position: fixed;
+    right: 0;
+    top: 80px;
+    width: 100%;
+}
+
+
+  /*Adjustments for indivdual review pages*/
 }
 
 
