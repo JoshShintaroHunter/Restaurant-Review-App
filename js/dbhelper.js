@@ -1,10 +1,10 @@
 //register the service worker
 if (navigator.serviceWorker) {
-  navigator.serviceWorker.register('/sw.js').then(function() {
-    console.log('Registration Worked!');
+  navigator.serviceWorker.register('/js/sw.js').then(function() {
+    console.log('Registration Successful.');
 })
 .catch(function () {
-  console.log('Registration Failed!');
+  console.log('Registration Failed.');
 });
 } else {
   console.log('Service worker is not supported in this browser');
