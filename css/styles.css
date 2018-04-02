@@ -298,6 +298,17 @@ nav h1 a {
 
 }
 
+@media screen and (min-width: 361px) and (max-width: 375px) {
+/*Adjustments for main page*/
+  #restaurants-list li{
+    width:80%;
+    margin-left: 0px;
+  }
+  #restaurants-list .restaurant-img {
+    min-height: 0px;
+  }
+
+}
 
 
 /*Media query for Galaxy S5*/
@@ -348,5 +359,4 @@ nav h1 a {
 
   /*Adjustments for indivdual review pages*/
 }
-
 
