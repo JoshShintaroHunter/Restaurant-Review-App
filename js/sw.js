@@ -20,6 +20,8 @@ self.addEventListener('install', function (event) {
         '/img/9.jpg',
         '/img/10.jpg'
       ]);
+    }).then(function(){
+        console.log("Install complete");
     }));
 });
 
