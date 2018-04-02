@@ -308,6 +308,56 @@ nav h1 a {
     min-height: 0px;
   }
 
+    nav h1{
+    padding-right:30px; 
+    padding-top: 10px;
+  }
+  .filter-options{
+    padding-top:20px;
+    height: 180px;
+  }
+  .filter-options select{
+    height: 40px;
+  }
+  #cuisines-select{
+    margin-top: 30px;
+  }
+  #restaurants-list li{
+    width:75%;
+    margin-left: 4px;
+  }
+  
+  /* Adjustments for restaraunt pages*/
+  #navigation {
+    padding-top: 0px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 17px;
+    margin: 0;
+    width: calc(100% - 80px);
+  }
+  #restaurant-container{
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding: 140px 40px 30px;
+    width: 80%;
+    margin-top: 300px
+  }
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 40%;
+    position: fixed;
+    right: 0;
+    top: 80px;
+    width: 100%;
+  }
+  #reviews-container {
+  width: 85%;
+  }
+  footer#footer.footerRest {
+    width: 85%;
+  }
+  
 }
 
 
@@ -341,10 +391,14 @@ nav h1 a {
     margin: 0;
     width: calc(100% - 80px);
   }
-  #restaurant-container, #reviews-container {
+  #reviews-container {
+  width: 85%;
+  }
+  #restaurant-container{
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #fff;
     padding: 140px 40px 30px;
+    margin-top: 280px;
     width: 80%;
   }
   .inside #map-container {
@@ -354,9 +408,9 @@ nav h1 a {
     right: 0;
     top: 80px;
     width: 100%;
-}
-
-
-  /*Adjustments for indivdual review pages*/
+  }
+  footer#footer.footerRest {
+    width: 84%;
+  }
 }
 
