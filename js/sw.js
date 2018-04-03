@@ -2,6 +2,7 @@ self.addEventListener('install', function (event) {
   event.waitUntil(
     caches.open('restaurant-static').then(function (cache) {
       return cache.addAll([
+        '/',
         '/css/styles.css',
         'index.html',
         'restaurant.html',
@@ -59,7 +60,7 @@ self.addEventListener('activate', function (event) {
     event.waitUntil(
         caches.keys().then(function(keys){
             return Promise.all(keys.map(function(key, i){
-                if(key !== restaurant-static){
+                if(key !== "restaurant-static"){
                     return caches.delete(keys[i]);
                 }
             }));
