@@ -351,7 +351,7 @@ nav h1 a {
 /*Adjustments for main page*/
   #restaurants-list li{
     width:35%;
-    margin-left: 4px;
+    margin-left: 11px;
   }
 
   .filter-options select{
