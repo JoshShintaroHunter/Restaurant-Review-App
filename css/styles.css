@@ -283,12 +283,75 @@ nav h1 a {
 }
 
 
+@media screen and (min-width: 375px) and (max-width: 410px) {
+/*Adjustments for main page*/
+
+  #restaurants-list{
+    padding-right:62px;
+  }
+  #restaurants-list li{
+    width:80%;
+    margin-left: 21px;
+  }
+  #restaurants-list .restaurant-img {
+    min-height: 0px;
+  }
+
+    nav h1{
+    padding-right:30px; 
+    padding-top: 10px;
+  }
+  .filter-options{
+    padding-top:20px;
+    height: 180px;
+  }
+  .filter-options select{
+    height: 40px;
+  }
+  #cuisines-select{
+    margin-top: 30px;
+  }
+  
+  /* Adjustments for restaraunt pages*/
+  #navigation {
+    padding-top: 0px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 17px;
+    margin: 0;
+    width: calc(100% - 80px);
+  }
+  #restaurant-container{
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #fff;
+    padding: 140px 25px 30px;
+    width: 88%;
+    margin-top: 300px
+  }
+  .inside #map-container {
+    background: blue none repeat scroll 0 0;
+    height: 40%;
+    position: fixed;
+    right: 0;
+    top: 80px;
+    width: 100%;
+  }
+  #reviews-container {
+  padding: 30px 34px 80px;
+  width: 84%;
+  }
+  footer#footer.footerRest {
+    width: 88%;
+  }
+  
+}
+
 /*Media wuery for Ipad*/
 @media screen and (min-width:411px) and (max-width: 731px) {
 /*Adjustments for main page*/
   #restaurants-list li{
     width:80%;
-    margin-left: 0px;
+    margin-left: 6px;
   }
   #restaurants-list .restaurant-img {
     min-height: 0px;
@@ -308,10 +371,7 @@ nav h1 a {
   #cuisines-select{
     margin-top: 30px;
   }
-  #restaurants-list li{
-    width:80%;
-    margin-left: 4px;
-  }
+
   
   /* Adjustments for restaraunt pages*/
   #navigation {
@@ -346,26 +406,17 @@ nav h1 a {
 
 }
 
-/*Media wuery for Ipad*/
-@media screen and (min-width: 376px) and (max-width: 410px) {
+
+
+@media screen and (min-width: 361px) and (max-width: 374px) {
 /*Adjustments for main page*/
-  #restaurants-list li{
-    width:35%;
-    margin-left: 11px;
+
+  #restaurants-list{
+    padding-right:62px;
   }
-
-  .filter-options select{
-    width:20%;
-    height: 40px;
-  }
-
-}
-
-@media screen and (min-width: 361px) and (max-width: 375px) {
-/*Adjustments for main page*/
   #restaurants-list li{
-    width:79%;
-    margin-left: 0px;
+    width:80%;
+    margin-left: 10px;
   }
   #restaurants-list .restaurant-img {
     min-height: 0px;
@@ -384,10 +435,6 @@ nav h1 a {
   }
   #cuisines-select{
     margin-top: 30px;
-  }
-  #restaurants-list li{
-    width:75%;
-    margin-left: 4px;
   }
   
   /* Adjustments for restaraunt pages*/
@@ -415,15 +462,19 @@ nav h1 a {
     width: 100%;
   }
   #reviews-container {
+  padding: 30px 45px 80px;
   width: 84%;
   }
   footer#footer.footerRest {
-    width: 85%;
+    width: 88%;
   }
   
 }
 
 
+
+
+/*GOOD(GALAXY S5)*/
 /*Media query for Galaxy S5*/
 @media screen and (min-width: 0px) and (max-width: 360px) {
   /*Adjustments for main page*/
